@@ -8,6 +8,7 @@ These documents describe guidelines and conventions that should apply to all the
 
 - [Node Package Scripts](en/node-package-scripts.md): scripts that should be available in the `package.json` file of any node-based repostory within the project.
 - [Labels](en/issue-labels.md): labels that should be available in the GitHub issue tracker of any repository within the project.
+- [Versioning strategy](en/versioning.md): the versioning strategy for the project.
 
 ## Rules Enforcement Levels
 
