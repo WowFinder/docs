@@ -2,7 +2,7 @@
 
 This document describes the bulk of ESLint rules used accross TypeScript code in the WowFinder project, and the motivation behind them.
 
-A sample configuration file can be found at [`/configs/eslint-8/.eslintrc.js`](../configs/eslint-8/.eslintrc.js) and [`/configs/eslint-8/.eslintrc-stricter.js`](../configs/eslint-8/.eslintrc-stricter.js). The second file is used to enable a second pass of `eslint` with strict errors on rules that the main configuration only provides warnings, even if with different options (for example, to be able to warn about file length at 150 lines of code, but only flag as an error at 200 lines).
+A sample configuration file can be found at [`/configs/eslint-8/.eslintrc.js`](../configs/eslint-8/.eslintrc.js) and [`/configs/eslint-8/.eslintrc-stricter.js`](../configs/eslint-8/.eslintrc-stricter.js). The second file is used to enable a second pass of `eslint` with strict errors on rules that the main configuration only provides warnings, even if with different options (for example, to be able to warn about file length at 150 lines of code, but only flag as an error at 200 lines). In addition, a sample ignore file can be found at [`/configs/eslint-8/.eslintignore`](../configs/eslint-8/.eslintignore).
 
 ## Quotes
 
