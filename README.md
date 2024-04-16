@@ -11,8 +11,10 @@ These documents describe guidelines and conventions that should apply to all the
 - [Versioning strategy](en/versioning.md): the versioning strategy for the project.
 - [ESLint configuration](en/eslint-rules.md): the ESLint recommended configuration and rules for the project.
 - [TypeScript configuration](en/typescript.md): the TypeScript recommended configuration for the project.
-- Jest configuration (upcoming): the Jest recommended configuration for the project.
+- [Jest configuration](/en/jest-settings.md): the Jest recommended configuration for the project.
 - Build process (upcoming): the default built process for modules in the project (used by all library modules and optionally by application modules).
+- GitHub Actions (upcoming): the GitHub Actions recommended configuration for the project.
+- SonarCloud guidelines (upcoming): the SonarCloud recommended configuration for the project.
 
 ## Rules Enforcement Levels
 
@@ -35,9 +37,9 @@ These are the repositories currently included in the project, and some quick det
 | [ts-enums](https://github.com/WowFinder/ts-enums) | `strict` | TS | @edurne85 | [@wowfinder/ts-enums](https://www.npmjs.com/package/@wowfinder/ts-enums) | TypeScript enums for the WowFinder project |
 | [ts-utils](https://github.com/WowFinder/ts-utils) | `strict` | TS | @edurne85 | [@wowfinder/ts-utils](https://www.npmjs.com/package/@wowfinder/ts-utils) | TypeScript utilities for the WowFinder project |
 | [model](https://github.com/WowFinder/model) | `migration` | TS | @edurne85 | - | Rules and types model for the WowFinder project |
-| [core-node] | `none` | TS | @edurne85 | - | (upcoming) |
-| [react-components](https://github.com/WowFinder/react-components) | `migration` | TS, React | @edurne85 | - | React-based components for the WowFinder apps (desktop, native, and web) |
-| [translations] | `none` | TS | @edurne85 | - | (upcoming) |
-| [bridge-electron] | `none` | TS | @edurne85 | - | (upcoming) |
-| [bridge-https](https://github.com/WowFinder/bridge-https) | `migration` | TS | @edurne85 | - | Web-based bridge code to facilitate accessing back-end(s) via https |
+| [core-node](https://github.com/WowFinder/core-node) | `none` | TS | @edurne85 | - | (upcoming) |
+| [react-components](https://github.com/WowFinder/react-components) | `migration` | TS, React | @edurne85 | [@wowfinder/react-components](https://www.npmjs.com/package/@wowfinder/react-components) | React-based components for the WowFinder apps (desktop, native, and web) |
+| [translations](https://github.com/WowFinder/translations) | `none` | TS | @edurne85 | - | (upcoming) |
+| [bridge-electron](https://github.com/WowFinder/bridge-electron) | `none` | TS | @edurne85 | - | (upcoming) |
+| [bridge-https](https://github.com/WowFinder/bridge-https) | `migration` | TS | @edurne85 | [@wowfinder/bridge-https](https://www.npmjs.com/package/@wowfinder/bridge-https) | Web-based bridge code to facilitate accessing back-end(s) via https |
 | [Wowfinder-Wicki](https://github.com/WowFinder/Wowfinder-Wicki) | `learning` | JS, TS, React | @AndreaKinder | - | (description not available) |
