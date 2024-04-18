@@ -48,64 +48,16 @@ These are the repositories currently included in the project, and some quick det
 
 This project began as a single-person undertaking by the campaign's Game Master, but has started receiving tangible contributions from one of the players, and may open up to more external collaboration. In addition, there is a desire to recognize the implicit role of the campaign's players as beta-testers (and sometimes stress-testers) of the game mechanics and some of the tools. 
 
-<table>
-    <thead>
-        <th>Main title</th>
-        <th>Name or alias [^name]</th>
-        <th>Effective role(s) [^roles]</th>
-    </thead>
-    <tbody>
-        <tr>
-            <td><strong>The</strong> Master</td>
-            <td>@edurne85</td>
-            <td>
-                Project Owner / Lead<br>
-                Software Engineer<br>
-                Architect stand-in</td>
-        </tr>
-        <tr>
-            <td>Apprentice</td>
-            <td>@AndreaKinder<br><i>Keina</i></td>
-            <td>
-                Junior Fullstack Developer in training<br>
-                <i>Druidric cuddlebear</i></td>
-        </tr>
-        <tr>
-            <td>Player</td>
-            <td><i>Garet</i></td>
-            <td>
-                <i>Summoning stress-tester</i><br>
-                <i>GM's spellcasting headache</i></td>
-        </tr>
-        <tr>
-            <td>Player</td>
-            <td><i>Mythea</i></td>
-            <td><i>Two-handed diplomacy</i></td>
-        </tr>
-        <tr>
-            <td>Player</td>
-            <td><i>Voljard</i></td>
-            <td><i>Raging furry</i></td>
-        </tr>
-        <tr>
-            <td>Player</td>
-            <td><i>Dael</i></td>
-            <td>
-                <i>Power gamer</i><br>
-                <i>Potential Rules Laywer</i></td>
-        </tr>
-        <tr>
-            <td>Player</td>
-            <td><i>Bhuldirm</i></td>
-            <td><i>Non-artificial non-intelligence</i></td>
-        </tr>
-        <tr>
-            <td>Player</td>
-            <td><i>Kaliri</i></td>
-            <td><i>The blurriness in the n/sfw line</i></td>
-        </tr>
-    </tbody>
-</table>
+| Main title | Name or alias [^name] | Effective role(s) [^roles] |
+|------------|-----------------------|----------------------------|
+| **The Master** | @edurne85 | Project Owner / Lead Software Engineer Architect stand-in |
+| Apprentice | @AndreaKinder<br>_Keina_ | Junior Fullstack Developer in training<br>_Druidric cuddlebear_ |
+| Player | _Garet_ | _Summoning stress-tester_<br>_GM's spellcasting headache_ |
+| Player | _Mythea_ | _Two-handed diplomacy_ |
+| Player | _Voljard_ | _Raging furry_ |
+| Player | _Dael_ | _Power gamer_<br>_Potential Rules Laywer_ |
+| Player | _Bhuldirm_ | _Non-artificial non-intelligence_ |
+| Player | _Kaliri_ | _The blurriness in the n/sfw line_ |
 
 [^name]: Contributors with at least some activity in GitHub will be listed by their GitHub username. For players, character name will be used by default, but real names or other aliases (within reason) can be used in agreement between the Project owner and the contributor. Character names (or any name that makes sense only within the fictional setting of the campaign) are highlighted in _italics_ for transparency.
 
