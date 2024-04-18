@@ -42,7 +42,7 @@ These are the repositories currently included in the project, and some quick det
 | [translations](https://github.com/WowFinder/translations) | `none` | TS | [@edurne85](https://github.com/edurne85) | - | (upcoming) |
 | [bridge-electron](https://github.com/WowFinder/bridge-electron) | `none` | TS | [@edurne85](https://github.com/edurne85) | - | (upcoming) |
 | [bridge-https](https://github.com/WowFinder/bridge-https) | `migration` | TS | [@edurne85](https://github.com/edurne85) | [@wowfinder/bridge-https](https://www.npmjs.com/package/@wowfinder/bridge-https) | Web-based bridge code to facilitate accessing back-end(s) via https |
-| [Wowfinder-Wicki](https://github.com/WowFinder/Wowfinder-Wicki) | `learning` | JS, TS, React | [@edurne85](https://github.com/AndreaKinder) | - | (description not available) |
+| [Wowfinder-Wicki](https://github.com/WowFinder/Wowfinder-Wicki) | `learning` | JS, TS, React | [@AndreaKinder](https://github.com/AndreaKinder) | - | (description not available) |
 
 ## Team and contributors
 
@@ -51,7 +51,7 @@ This project began as a single-person undertaking by the campaign's Game Master,
 | Main title | Name or alias [^name] | Effective role(s) [^roles] |
 |------------|-----------------------|----------------------------|
 | **The Master** | [@edurne85](https://github.com/edurne85) | Project Owner / Lead Software Engineer Architect stand-in |
-| Apprentice | [@edurne85](https://github.com/AndreaKinder)<br>_Keina_ | Junior Fullstack Developer in training<br>_Druidric cuddlebear_ |
+| Apprentice | [@AndreaKinder](https://github.com/AndreaKinder)<br>_Keina_ | Junior Fullstack Developer in training<br>_Druidric cuddlebear_ |
 | Player | _Garet_ | _Summoning stress-tester_<br>_GM's spellcasting headache_ |
 | Player | _Mythea_ | _Two-handed diplomacy_ |
 | Player | _Voljard_ | _Raging furry_ |
