@@ -50,7 +50,7 @@ This project began as a single-person undertaking by the campaign's Game Master,
 
 | Main title | Name or alias [^name] | Effective role(s) [^roles] |
 |------------|-----------------------|----------------------------|
-| **The Master** | [@edurne85](https://github.com/edurne85) | Project Owner / Lead Software Engineer Architect stand-in |
+| **The** Master | [@edurne85](https://github.com/edurne85) | Project Owner / Lead<br>Software Engineer<br>Architect stand-in |
 | Apprentice | [@AndreaKinder](https://github.com/AndreaKinder)<br>_Keina_ | Junior Fullstack Developer in training<br>_Druidric cuddlebear_ |
 | Player | _Garet_ | _Summoning stress-tester_<br>_GM's spellcasting headache_ |
 | Player | _Mythea_ | _Two-handed diplomacy_ |
