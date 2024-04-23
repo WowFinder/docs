@@ -14,6 +14,8 @@ Note: yarn (version 4.x) should be used accross the project.
 
 For JS and TS, `eslint` is the preferred linter, and `prettier` is the preferred formatter. If a project needs to handle other languages, it is acceptable to use other tools.
 
+In addition, `skott` is being used to assist with dependency analysis in JS / TS code.
+
 - `lint`: run the package's linter(s) on "validation" mode (ie: it should report errors, but apply no changes to the code). For `eslint`, this is the default behavior. Here are some example `lint` scripts for typical cases:
 
 A default `lint` script should be available for all packages in the WowFinder project. If there is absolutely no need for linting, it should be mapped to the `noop` script.
@@ -23,9 +25,11 @@ A default `lint` script should be available for all packages in the WowFinder pr
 - `prettier`: ⚠️ Deprecated. See `format`.
 - `format`: run the package's code formatter(s) on "fix" mode.
 - `format:check`: run the package's code formatter(s) on "validation" mode (ie: it should report errors, but apply no changes to the code).
+- `skott:web`: produces a web-based interactive graph of module dependencies within the package. This script is not strictly required, as it's only run manually as a development and code design aid, but highly advisable on any module with non-trivial dependency graphs.
+- `skott:circular`: checks for circular dependencies (omitting type-only references) within the module, producing command-line output. This script is required and should be included in the CI processes for any module using `import` and/or `require` statements in JS / TS.
 
 - `checks:quick`: run the faster local checks. The exact checks to be run are up to the package's maintainers, and should aim for the best balance between catching common issues and running quickly. Parallel exectution via `npm-run-all` is preferred whenever possible.
-- `checks:standard`: run the standard local checks. The exact checks to be run are up to the package's maintainers, but should include linting, formatting, type checking, and testing. Parallel exectution via `npm-run-all` is preferred whenever possible. The checks from this script should be essentially equivalent to the CI checks (but the CI setup script may use different commands and setups to work in the GitHub Actions environment).
+- `checks:standard`: run the standard local checks. The exact checks to be run are up to the package's maintainers, but should include linting, formatting, type checking, testing, and circular dependency checks. Parallel exectution via `npm-run-all` is preferred whenever possible. The checks from this script should be essentially equivalent to the CI checks (but the CI setup script may use different commands and setups to work in the GitHub Actions environment).
 - `checks:full`: run all local checks and potential automatic fixes. Any checks available locally (including variants that automatically apply fixes) should be covered by this script. Parallel exectution via `npm-run-all` is preferred whenever possible.
 - `checks:pedantic`: run all local checks and reporting tools, including code coverage. This script **must** not apply any changes to the code. It may be necessary to run the build process as part of this script. While parallel execution is preferred, it's expected and accepted that most repositories will need to run the checks sequentially in a specific order.
 
@@ -47,10 +51,12 @@ A default `lint` script should be available for all packages in the WowFinder pr
     "format:check": "prettier --check \"src/**/*.{ts,tsx,js,jsx,json,json5,css,scss,html,md}\"",
     "test": "jest",
     "test:coverage": "jest --coverage",
+    "skott:web": "skott -nit --displayMode=webapp --trackThirdPartyDependencies --trackBuiltinDependencies src/",
+    "skott:circular": "skott -nit --showCircularDependencies --displayMode=raw",
     "checks:quick": "npm-run-all --pc lint test",
-    "checks:standard": "npm-run-all -sc lint format tsc test",
-    "checks:pedantic": "npm-run-all -sc lint format:check build test:coverage",
-    "checks:full": "npm-run-all -sc lint:fix format build test:coverage",
+    "checks:standard": "npm-run-all -sc lint format tsc test skott:circular",
+    "checks:pedantic": "npm-run-all -sc lint format:check build test:coverage skott:circular",
+    "checks:full": "npm-run-all -sc lint:fix format build test:coverage skott:circular",
     "build:pre": "rimraf dist",
     "build:main": "tsc",
     "build": "npm-run-all -s build:pre build:main",
