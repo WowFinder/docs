@@ -42,3 +42,22 @@ Cualquier módulo que alcance la versión 1.x debe tener una configuración de l
 
 Cualquier versión etiquetada debe pasar las reglas de linting sin errores y con un mínimo de advertencias. Se publicarán directrices más explícitas sobre el límite de advertencias antes de que cualquier módulo llegue a esta etapa.
 
+### Documentación de referencia
+
+El propósito del módulo y el razonamiento de cualquier elección de tecnología deben documentarse antes del primer lanzamiento estable. Esto es para asegurar que el módulo tenga un propósito y un conjunto de tecnologías claros antes de que pueda considerarse "estable".
+
+Como línea base, hay varias opciones globales para las tecnologías utilizadas en todo el proyecto. Los repositorios que se adhieran a estas opciones no necesitan proporcionar más documentación sobre ellas (el razonamiento de estas opciones se publicará aquí en un futuro próximo).
+
+### Opciones tecnológicas globales
+
+- TypeScript: la primera elección de idioma para todos los módulos del proyecto debe ser TypeScript. Hay algunos proyectos experimentales que utilizan JS simple, pero estos no deberían alcanzar una versión estable de esa forma.
+- Jest: la primera opción de marco de prueba para todos los módulos del proyecto debe ser Jest.
+- Runtimes: para los módulos backend y core, la primera opción de tiempo de ejecución debe ser la última versión LTS de Node.js. Los módulos frontend deben basar su elección de API en el entorno de ejecución esperado.
+-Frameworks:se utilizan varios frameworks y utilidades en todo el proyecto. Éstas deberían ser la primera opción para algunos escenarios comunes:
+    - Electron para aplicaciones de escritorio.
+    - Apache Cordova para aplicaciones moviles.
+    - Cumplimiento estricto de los estándares web y las mejores prácticas modernas para aplicaciones web.
+    - React 18 para cualquier interfaz. Se prefieren los componentes funcionales (y ganchos) a los componentes basados en clases; y el código debe depender del sistema de tipos de TS para la validación de componentes.
+    - Backend: actualmente, no existe una elección estricta de marco para los módulos de backend más allá del tiempo de ejecución.
+    - JSON y JSON5 como los formatos principales de almacenamiento y transporte de datos. La compresión a nivel de protocolo es perfectamente aceptable, y la gestión explícita de la compresión puede utilizarse cuando la compresión a nivel de protocolo no está disponible o no es suficiente, pero la justificación debe estar claramente documentada. Se prefiere JSON5 para cualquier dato gestionado por humanos, pero JSON simple está perfectamente bien para el transporte de datos entre módulos (es decir, entre un módulo frontend y un backend).
+  - GraphQL será la principal opción para definir contratos de red.
