@@ -35,3 +35,10 @@ En el momento de publicar este documento, el Control de Calidad base del proyect
 - Calificación de seguridad A. Para las PR, esto significa que no se introducen nuevas vulnerabilidades de seguridad a sabiendas y que todos los puntos críticos de seguridad se revisan conscientemente.
 - Calificación de mantenibilidad A. Para las PR, esto limita la cantidad, defectos de código u otros pequeños problemas permitidos. Esto podría permitir que la deuda técnica y los defectos de codigo se acumulen con el tiempo, por lo que es importante verificar que la revisión de calidad en la rama `main` antes de cualquier lanzamiento. Si se alcanza un "punto de inflexión", haciendo que falle la revisión de calidad, el esfuerzo en ese proyecto debe centrarse inmediatamente en abordar la calidad del código antes de que se pueda realizar cualquier lanzamiento.
 - Límites estrictos en la duplicación: el valor predeterminado de SonarCloud es menos o igual al 3% de duplicación en código nuevo para PR y menos o igual al 3% de duplicación en el código general para la rama `main`.
+
+### Clean lint
+
+Cualquier módulo que alcance la versión 1.x debe tener una configuración de linting funcional. En un futuro cercano, se publicarán aquí las reglas globales para todos los proyectos aplicables.
+
+Cualquier versión etiquetada debe pasar las reglas de linting sin errores y con un mínimo de advertencias. Se publicarán directrices más explícitas sobre el límite de advertencias antes de que cualquier módulo llegue a esta etapa.
+
