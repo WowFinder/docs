@@ -8,7 +8,7 @@ El [Versionado Semántico 2.0.0](https://semver.org/) asume que `0.y.z` es inest
 
 ### Desarrollo volátil: 0.0.z
 
-Las versiones en el rango `0.0.z` son consideradas volátiles y pueden cambiar en cualquier momento. En este rango, asumir que cualquier versión puede introducir cambios importantes. De hecho, en esta etapa han sido rediseñadas toda una serie de API's.
+Las versiones en el rango `0.0.z` son consideradas volátiles y pueden cambiar en cualquier momento. En este rango, asumir que cualquier versión puede introducir cambios incompatibles. De hecho, en esta etapa han sido rediseñadas toda una serie de API's.
 
 ### Desarrollo semi-estable: 0.y.z (y > 0)
 
