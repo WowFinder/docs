@@ -1,6 +1,6 @@
 # Estrategia de versionado para el Proyecto de Wowfinder
 
-Este proyecto y sus repositorios siguen principalmente la especificación [Versionado Semántico 2.0.0](https://semver.org/)  .
+Este proyecto y sus repositorios siguen principalmente la especificación [Versionado Semántico 2.0.0](https://semver.org/lang/es/) . Este documento describe pautas adicionales sobre aspectos que no están completamente definidos por SemVer.
 
 ## Desarrollo de versiones iniciales
 
