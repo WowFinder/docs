@@ -12,9 +12,9 @@ Las versiones en el rango `0.0.z` son consideradas volátiles y pueden cambiar e
 
 ### Desarrollo semi-estable: 0.y.z (y > 0)
 
-Al aumentar el valor numérico del número de versión (`y`) denota _intención de estabilidad_. Este hecho significa que, desde la perspectiva del autor, la API está razonablemente cerca de su forma final prevista. Puede ser que haya una ruptura accidental, pero los cambios deberían más predecibles.
+Aumentar el valor numérico del número de versión (`y`) denota _intención de estabilidad_. Este aumento significa que, desde la perspectiva del autor, la API está razonablemente cerca de su forma final prevista. Puede ser que haya una ruptura accidental, pero los cambios deberían más predecibles.
 
-Supongamos que en esta etapa, al aumentar de versión, se pueden dar cambios importantes, pero las versiones del parche van destinadas con la _intención_ de no romperse.
+En esta etapa, suponga que los aumentos menores de versión pueden introducir cambios incompatibles, pero las versiones del parche van destinadas con la _intención_ de no romperse.
 
 ## Criterios para 1.x
 
