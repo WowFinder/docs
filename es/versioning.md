@@ -57,7 +57,7 @@ Como línea base, hay varias opciones globales para las tecnologías utilizadas 
     - Electron para aplicaciones de escritorio.
     - Apache Cordova para aplicaciones moviles.
     - Cumplimiento estricto de los estándares web y las mejores prácticas modernas para aplicaciones web.
-    - React 18 para cualquier interfaz. Se prefieren los componentes funcionales (y ganchos) a los componentes basados en clases; y el código debe depender del sistema de tipos de TS para la validación de componentes.
+    - React 18 para cualquier interfaz. Se prefieren los componentes funcionales (y hooks) a los componentes basados en clases; y el código debe depender del sistema de tipos de TS para la validación de componentes.
     - Backend: actualmente, no existe una elección estricta de marco para los módulos de backend más allá del tiempo de ejecución.
     - JSON y JSON5 como los formatos principales de almacenamiento y transporte de datos. La compresión a nivel de protocolo es perfectamente aceptable, y la gestión explícita de la compresión puede utilizarse cuando la compresión a nivel de protocolo no está disponible o no es suficiente, pero la justificación debe estar claramente documentada. Se prefiere JSON5 para cualquier dato gestionado por humanos, pero JSON simple está perfectamente bien para el transporte de datos entre módulos (es decir, entre un módulo frontend y un backend).
   - GraphQL será la principal opción para definir contratos de red.
