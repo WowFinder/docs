@@ -18,7 +18,7 @@ Supongamos que en esta etapa, al aumentar de versión menor, se pueden dar cambi
 
 ## Criterios para 1.x
 
-Los criterios al toparse con el primer número con mayor valor numérico de versión de un módulo es levemente deferente para los módulos de la biblioteca y de los del usuario final (aplicación), pero siguen una filosofía similar.
+Los criterios al toparse con el primer número con mayor valor numérico de versión de un módulo es levemente diferente para los módulos de la biblioteca y de los del usuario final (aplicación), pero siguen una filosofía similar.
 
 Para cualquier módulo, en algún punto de la duración del desarrollo temprano, se debe definir un _objetivo con una característica de referencia_. Al alcanzar un módulo de 1.x, las versiones deben alcanzar ese objetivo, además de todos los criterios para considerarla estable.
 
