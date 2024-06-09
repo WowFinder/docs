@@ -26,7 +26,7 @@ Para cualquier módulo, en algún punto de la duración del desarrollo temprano,
 
 Cualquier módulo que alcance 1.x debe ser configurado para el análisis de SonarCloud y mantener una calidad al menos tan estricta como la que se considera la calidad base de todo el proyecto. Además, tiene que tener la protección de la rama `main` activado.
 
-Incluso dentro de estas restricciones, una sub-parte del código puede eventualmente empezar a ser fusionada. Bajo ninguna circunstancia se debe etiquetar y/o publicar ninguna versión de `1.x` sin pasar la verificación de Quality Gate.
+Incluso dentro de estas restricciones, un código deficiente puede eventualmente empezar a ser fusionada. Bajo ninguna circunstancia se debe etiquetar y/o publicar ninguna versión de `1.x` sin pasar la verificación de Quality Gate.
 
 En el momento de publicar este documento, el Quality Gate base del proyecto es el predeterminado de SonarCloud, que se puede resumir de la siguiente manera:
 
