@@ -53,7 +53,7 @@ Como línea base, hay varias opciones globales para las tecnologías utilizadas 
 - TypeScript: la primera elección de idioma para todos los módulos del proyecto debe ser TypeScript. Hay algunos proyectos experimentales que utilizan JS simple, pero estos no deberían alcanzar una versión estable de esa forma.
 - Jest: la primera opción de marco de prueba para todos los módulos del proyecto debe ser Jest.
 - Runtimes: para los módulos backend y core, la primera opción de runtime debe ser la última versión LTS de Node.js. Los módulos frontend deben basar su elección de APIs en el entorno de runtime esperado.
--Frameworks:se utilizan varios frameworks y utilidades en todo el proyecto. Éstas deberían ser la primera opción para algunos escenarios comunes:
+- Frameworks: se utilizan varios frameworks y utilidades en todo el proyecto. Éstas deberían ser la primera opción para algunos escenarios comunes:
     - Electron para aplicaciones de escritorio.
     - Apache Cordova para aplicaciones moviles.
     - Cumplimiento estricto de los estándares web y las mejores prácticas modernas para aplicaciones web.
