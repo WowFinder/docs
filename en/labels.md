@@ -18,3 +18,4 @@ Labels that are included by default by GitHub and not included in this list must
 | invalid | `#CFD3D7` | This doesn't seem right |
 | question | `#D876E3` | Further information is requested |
 | wontfix | `#CFD3D7` | This will not be worked on |
+| i18n | `#F0B160` | Internationalization and localization |
