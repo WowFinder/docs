@@ -2,6 +2,8 @@
 
 Este documento resume las prioridades en el proyecto WowFinder para la primera parte de 2026 y la justificación básica de las mismas.
 
+Vista detallada: https://github.com/orgs/WowFinder/projects/4/views/1
+
 1. `model`: Consolidación de código, garantizar 100% cobertura de tests. Esto es necesario para asegurar que el código importado del antiguo repo es consistente, y permitirá usar el módulo de manera estable en otros módulos.
 
 1. `react-components`: Migración de toda la funcionalidad que ya existía en el antiguo repo, principalmente hojas de personaje y vista básica de conjuros y listas.
